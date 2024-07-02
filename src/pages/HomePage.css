@@ -1,0 +1,109 @@
+/* HomePage.css */
+
+.homepage-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .homepage-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: justify; /* Adjusted to justify text */
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    flex: 1;
+    text-align: justify; /* Adjusted to justify text */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .popular-blogs,
+  .recent-blogs {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  /* Search Bar Styling */
+  
+  .search-bar-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .search-bar-container .input-group {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .search-bar-container .form-control {
+    flex: 1; /* Make the input field take most of the space */
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 90%; /* Ensure the input field takes up 90% of the container width */
+  }
+  
+  .search-bar-container .btn {
+    flex: 0 0 10%; /* Make the button take up 10% of the container width */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height:50px;
+
+    min-width: 50px; /* Ensure a minimum width for the button */
+}

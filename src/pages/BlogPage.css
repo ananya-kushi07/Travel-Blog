@@ -1,0 +1,22 @@
+.custom-card {
+    border: none; /* Remove default card border */
+  }
+  
+  .custom-card .card-img {
+    max-height: 300px; /* Adjust the maximum height of the card images */
+    object-fit: cover; /* Ensure images cover the entire card */
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 10px; /* Add margin between category links */
+  }
+  
+  .list-unstyled li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+  }
+  
+  .list-unstyled li a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  

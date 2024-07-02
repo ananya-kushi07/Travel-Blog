@@ -1,0 +1,25 @@
+.navbar-custom {
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-custom .nav-link {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: #f8f9fa !important;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ffc107 !important; /* Bootstrap's warning color */
+  }
+  
+  .navbar-custom .ml-auto {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
